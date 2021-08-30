@@ -25,6 +25,7 @@ socket.on('scoreboard', scoreboard => {
     // sort dari terkecil
     let keys = Object.keys(scoreboard)
     keys.sort(function(a, b) { return scoreboard[a] - scoreboard[b] })
+    keys.reverse()
 
     // update UI leaderboard (bagian depan)
     let leaderboardRankHTML = `#1 ${keys[0]}`
