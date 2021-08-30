@@ -1,0 +1,39 @@
+{
+  "name": "popclick-framework",
+  "version": "1.0.0",
+  "description": "popclick framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "cacadosman",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.9.3",
+    "bootstrap": "^5.1.0",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "howler": "^2.2.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.38.2",
+    "socket.io-client": "^4.1.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "dotenv-webpack": "^7.0.3",
+    "exports-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^2.2.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "style-loader": "^3.2.1",
+    "terser-webpack-plugin": "^5.1.4"
+  }
+}

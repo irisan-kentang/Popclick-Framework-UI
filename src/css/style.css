@@ -1,0 +1,23 @@
+body {
+    background: url('../images/bg.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title {
+    color: white;
+    -webkit-text-stroke: 1px black;
+}
+
+.offcanvas {
+    height: 76.5vh !important;
+}

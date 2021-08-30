@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-1 font-weight-bold text-center title m-4">Popclick</h1>
+                <h1 id="score" class="display-2 font-weight-bold text-center title m-4">0</h1>
+            </div>
+            <div class="col-12 mx-auto text-center fixed-bottom">
+                <img id="popimg" class="img-fluid" width="480px">
+            </div>
+            <div 
+            class="col-xs-12 col-lg-6 pt-3 fixed-bottom mx-auto bg-light d-flex justify-content-between" 
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"
+            >
+                <p id="leaderboards-rank">#1 NaN</p>
+                <p id="leaderboards-score">NaN 0</p>
+                <p><i class="fas fa-arrow-up"></i></p>
+            </div>
+            <div 
+            class="offcanvas offcanvas-bottom col-xs-12 col-lg-6 mx-auto" 
+            data-bs-scroll="true" data-bs-backdrop="false"
+            tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Leaderboards</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body small">
+                    <ul id="leaderboards-list" class="list-group">
+                        <li class="list-group-item d-flex">
+                            <div>Total</div>
+                            <div class="ms-auto me-0">100000</div>
+                        </li>
+                        <li class="list-group-item d-flex">
+                            <div>#1</div>
+                            <div class="ms-3">Lorem Ipsum</div>
+                            <div class="ms-auto me-0">100000</div>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
